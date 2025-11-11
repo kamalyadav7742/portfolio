@@ -1390,7 +1390,6 @@
         </div>
     </section>
 
-
     <div class="stats-section">
         <div class="stats-grid">
             <div class="stat-card">
@@ -1646,6 +1645,15 @@
                 </div>
                 <div class="skill-item">
                     <div class="skill-name">
+                        <span>Next.js</span>
+                        <span>90%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 90%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
                         <span>JavaScript ES6+</span>
                         <span>92%</span>
                     </div>
@@ -1706,7 +1714,7 @@
                 </div>
                 <div class="skill-item">
                     <div class="skill-name">
-                        <span>Mongoose</span>
+                        <span>Firebase</span>
                         <span>85%</span>
                     </div>
                     <div class="skill-bar">
@@ -1720,6 +1728,15 @@
                     </div>
                     <div class="skill-bar">
                         <div class="skill-progress" style="width: 82%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Oracle Database</span>
+                        <span>78%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 78%;"></div>
                     </div>
                 </div>
             </div>
@@ -1784,10 +1801,19 @@
                 </div>
             </div>
             <div class="skill-category">
-                <h3><i class="fas fa-layer-group"></i> State Management</h3>
+                <h3><i class="fas fa-mobile-alt"></i> Mobile Development</h3>
                 <div class="skill-item">
                     <div class="skill-name">
-                        <span>Redux</span>
+                        <span>React Native</span>
+                        <span>87%</span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" style="width: 87%;"></div>
+                    </div>
+                </div>
+                <div class="skill-item">
+                    <div class="skill-name">
+                        <span>Expo</span>
                         <span>82%</span>
                     </div>
                     <div class="skill-bar">
@@ -1796,33 +1822,24 @@
                 </div>
                 <div class="skill-item">
                     <div class="skill-name">
-                        <span>Context API</span>
+                        <span>Cross-Platform Apps</span>
                         <span>85%</span>
                     </div>
                     <div class="skill-bar">
                         <div class="skill-progress" style="width: 85%;"></div>
                     </div>
                 </div>
-                <div class="skill-item">
-                    <div class="skill-name">
-                        <span>Redux Toolkit</span>
-                        <span>80%</span>
-                    </div>
-                    <div class="skill-bar">
-                        <div class="skill-progress" style="width: 80%;"></div>
-                    </div>
-                </div>
             </div>
         </div>
 
         <div class="download-cv">
-    <a href="img/KamalY-Developer.pdf" download="KamalY-Developer" class="btn-download">
-        <i class="fas fa-download"></i>
-        Download Resume
-    </a>
-</div>
-
+            <a href="img/KamalY-Developer.pdf" download="KamalY-Developer" class="btn-download">
+                <i class="fas fa-download"></i>
+                Download Resume
+            </a>
+        </div>
     </section>
+
     <section class="section" id="contact">
         <div class="section-title">
             <h2>Get In Touch</h2>
@@ -2007,7 +2024,7 @@
         });
 
         // Typing effect
-        const roles = ['MERN Stack Specialist', 'Full Stack Developer', 'React.js Expert', 'Node.js Developer'];
+        const roles = ['MERN Stack Specialist', 'Full Stack Developer', 'React.js Expert', 'Node.js Developer', 'Next.js Developer', 'React Native Developer'];
         let roleIndex = 0;
         let charIndex = 0;
         let isDeleting = false;
@@ -2037,11 +2054,6 @@
 
         typeRole();
 
-        // Download CV button
-        // document.querySelector('.btn-download').addEventListener('click', () => {
-        //     alert('Resume download functionality - Connect your actual CV file here!');
-        // });
-
         // Add hover effect to clickable elements
         const clickableElements = document.querySelectorAll('a, button, .btn');
         clickableElements.forEach(el => {
@@ -2056,5 +2068,4 @@
         });
     </script>
 </body>
-
 </html>
